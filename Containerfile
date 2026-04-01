@@ -1,8 +1,10 @@
 FROM quay.io/fedora/fedora-sway-atomic:43-x86_64
 
-RUN dnf install -y \
+RUN microdnf install -y \
     arm-image-installer \
+    bcvk \
     coreos-installer \
+    fontawesome-fonts-all \
     gdisk \
     git \
     guestfs-tools \
@@ -17,6 +19,7 @@ RUN dnf install -y \
     qemu-img \
     qemu-kvm \
     qemu-system-aarch64 \
+    terminus-fonts-console \
     virt-install \
     virt-manager \
     virt-viewer \
