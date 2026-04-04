@@ -19,6 +19,7 @@ RUN microdnf install -y \
     qemu-img \
     qemu-kvm \
     qemu-system-aarch64 \
+    rustup \
     terminus-fonts-console \
     virt-install \
     virt-manager \
