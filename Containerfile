@@ -14,7 +14,7 @@ RUN microdnf install -y \
     libvirt-daemon-driver-qemu \
     libvirt-daemon-kvm \
     lightdm \
-    lightdm-settings \
+    lightdm-gtk \
     neovim \
     openssl \
     qemu-img \
