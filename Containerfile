@@ -13,14 +13,16 @@ RUN microdnf install -y \
     libvirt-client-qemu \
     libvirt-daemon-driver-qemu \
     libvirt-daemon-kvm \
-    tio \
+    lightdm \
     neovim \
     openssl \
     qemu-img \
     qemu-kvm \
     qemu-system-aarch64 \
     rustup \
+    screen \
     terminus-fonts-console \
+    tio \
     virt-install \
     virt-manager \
     virt-viewer \
